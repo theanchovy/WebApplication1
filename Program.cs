@@ -29,7 +29,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<EventService>();
-builder.Services.AddSignalR();
+//builder.Services.AddSignalR();
 
 // Регистрация EventCleanupService как scoped
 builder.Services.AddScoped<EventCleanupService>();
